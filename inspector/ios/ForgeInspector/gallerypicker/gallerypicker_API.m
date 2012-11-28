@@ -1,9 +1,9 @@
 //
-//  gallerypicker_API.m
-//  ForgeInspector
+//	gallerypicker_API.m
+//	ForgeInspector
 //
-//  Created by Antoine van Gelder on 27/11/2012.
-//  Copyright (c) 2012 Trigger Corp. All rights reserved.
+//	Created by Antoine van Gelder on 27/11/2012.
+//	Copyright (c) 2012 Trigger Corp. All rights reserved.
 //
 
 #import "gallerypicker_API.h"
@@ -15,16 +15,16 @@
 @implementation gallerypicker_API
 
 + (void) getImages:(ForgeTask*)task {
-    gallerypicker_API *api = ((gallerypicker_API*)task.self);
-    
-    ELCAlbumPickerController *albumController = [[ELCAlbumPickerController alloc] initWithNibName:@"ELCAlbumPickerController" bundle:[NSBundle mainBundle]];
+	gallerypicker_API *api = ((gallerypicker_API*)task.self);
+	
+	ELCAlbumPickerController *albumController = [[ELCAlbumPickerController alloc] initWithNibName:@"ELCAlbumPickerController" bundle:[NSBundle mainBundle]];
 	ELCImagePickerController *pickerController = [[ELCImagePickerController alloc] initWithRootViewController:albumController];
-    [albumController setParent:pickerController];
+	[albumController setParent:pickerController];
 
-    api->pickerDelegate = [[ImagePickerDelegate alloc] initWithTask: task];
-    [pickerController setDelegate:api->pickerDelegate];
-    
-    AppDelegate *app = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+	api->pickerDelegate = [[ImagePickerDelegate alloc] initWithTask: task];
+	[pickerController setDelegate:api->pickerDelegate];
+	
+	AppDelegate *app = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[app.viewController presentModalViewController:pickerController animated:YES];
 }
 
@@ -46,7 +46,7 @@
 																									 kCFStringEncodingUTF8);
 		url = [url stringByAppendingFormat:@"%@=%@&", encodedKey, encodedVal];
 	}
-    [task success:url];
+	[task success:url];
 }
 
 @end
@@ -59,31 +59,31 @@
 @implementation ImagePickerDelegate
 
 - (ImagePickerDelegate*) initWithTask:(ForgeTask *)forgetask {
-    if (self = [super init]) {
-        task = forgetask;
-    }
-    return self;
+	if (self = [super init]) {
+		task = forgetask;
+	}
+	return self;
 }
 
 #pragma mark ELCImagePickerControllerDelegate Methods
 
-- (void)elcImagePickerController:(ELCImagePickerController *)picker didFinishPickingMediaWithInfo:(NSArray *)info {
-    [picker dismissModalViewControllerAnimated:YES];
-    
-    NSMutableArray *images = [NSMutableArray arrayWithCapacity:2];
-    
-    for (NSDictionary *dict in info) {
-        NSMutableDictionary *file = [NSMutableDictionary dictionaryWithCapacity:2];
-        [file setValue:[[dict objectForKey:UIImagePickerControllerReferenceURL] absoluteString] forKey:@"uri"];
-        [file setValue:@"image" forKey:@"type"];
-        [images addObject:file];
-    }
-    
+- (void) elcImagePickerController:(ELCImagePickerController *)picker didFinishPickingMediaWithInfo:(NSArray *)info {
+	[picker dismissModalViewControllerAnimated:YES];
+	
+	NSMutableArray *images = [NSMutableArray arrayWithCapacity:2];
+	
+	for (NSDictionary *dict in info) {
+		NSMutableDictionary *file = [NSMutableDictionary dictionaryWithCapacity:2];
+		[file setValue:[[dict objectForKey:UIImagePickerControllerReferenceURL] absoluteString] forKey:@"uri"];
+		[file setValue:@"image" forKey:@"type"];
+		[images addObject:file];
+	}
+
 	[task success:images];
 }
 
-- (void)elcImagePickerControllerDidCancel:(ELCImagePickerController *)picker {
-    [picker dismissModalViewControllerAnimated:YES];
+- (void) elcImagePickerControllerDidCancel:(ELCImagePickerController *)picker {
+	[picker dismissModalViewControllerAnimated:YES];
 	[task success:[NSMutableArray arrayWithCapacity:0]];
 }
 
