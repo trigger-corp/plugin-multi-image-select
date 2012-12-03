@@ -1,22 +1,16 @@
 package io.trigger.forge.android.modules.gallerypicker;
 
-import io.trigger.forge.android.core.ForgeLog;
-import io.trigger.forge.android.inspector.R;
-
 import android.content.Context;
 import android.util.TypedValue;
 
-//import com.chute.android.multiimagepicker.app.MultiImagePickerApp;
-
+import com.chute.android.multiimagepicker.R;
 import com.darko.imagedownloader.ImageLoader;
 
+// As required by: https://github.com/chute/chute-tutorials/tree/master/Android/Multi-Image%20Picker%20Tutorial
 public class Application extends android.app.Application {
 	private static ImageLoader createImageLoader(Context context) {
-		ForgeLog.d("MyApplication.createImageLoader");
 		ImageLoader imageLoader = new ImageLoader(context, R.drawable.placeholder_image_small);
-		imageLoader.setDefaultBitmapSize((int) TypedValue.applyDimension(
-				TypedValue.COMPLEX_UNIT_DIP, 75, context.getResources()
-				.getDisplayMetrics()));
+		imageLoader.setDefaultBitmapSize((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 75, context.getResources().getDisplayMetrics()));
 		return imageLoader;
 	}
 
@@ -24,16 +18,13 @@ public class Application extends android.app.Application {
 
 	@Override
 	public void onCreate() {
-		ForgeLog.d("MyApplication.onCreate");
 		super.onCreate();
 		mImageLoader = createImageLoader(this);
 	}
 
 	@Override
 	public Object getSystemService(String name) {
-		ForgeLog.d("MyApplication.getSystemService");
 		if (ImageLoader.IMAGE_LOADER_SERVICE.equals(name)) {
-			ForgeLog.d("MyApplication.getSystemService - ImageLoader");
 			return mImageLoader;
 		} else {
 			return super.getSystemService(name);

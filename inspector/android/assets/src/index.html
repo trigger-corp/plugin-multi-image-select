@@ -9,11 +9,9 @@
 			$(document).bind('touchstart', function () {
 				forge.internal.call('gallerypicker.getImages', {}, function(results) {
 					for (var file in results) {
-						alert("Got file: " + JSON.stringify(results[file]));
 						//forge.file.URL(file, function (url) {
 						forge.internal.call('gallerypicker.URL', results[file], function (url) {
-						    alert("Got url: " + url);
-							var img = $("<img />").attr({ "src": url, "width": "25%", "height": "25%" });
+							var img = $("<img />").attr({ "src": url }); 
 							img.appendTo("#selection");
 						}, function (e) {
 							alert("gallerypicker.URL failed: " + e.message);

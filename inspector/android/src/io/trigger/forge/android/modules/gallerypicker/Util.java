@@ -14,16 +14,16 @@ import android.content.Context;
 import android.net.Uri;
 
 public class Util {
-    public static Uri fileToUri(final Context context, final JSONObject file) throws JSONException {
-        ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
+	public static Uri fileToUri(final Context context, final JSONObject file) throws JSONException {
+		ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
 
-        @SuppressWarnings("unchecked")
-        Iterator<String> keys = file.keys();
-        while (keys.hasNext()) {
-            String key = keys.next();
-            params.add(new BasicNameValuePair(key, file.getString(key)));
-        }
+		@SuppressWarnings("unchecked")
+		Iterator<String> keys = file.keys();
+		while (keys.hasNext()) {
+			String key = keys.next();
+			params.add(new BasicNameValuePair(key, file.getString(key)));
+		}
 
-	return Uri.parse("content://" + context.getApplicationContext().getPackageName() + "/file___" + URLEncodedUtils.format(params, "UTF-8"));
-    }
+		return Uri.parse("content://" + context.getApplicationContext().getPackageName() + "/file___" + URLEncodedUtils.format(params, "UTF-8"));
+	}
 }

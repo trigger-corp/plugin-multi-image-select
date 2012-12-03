@@ -2,18 +2,18 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" 
-              content="width=device-width, initial-scale=1.0, user-scalable=no">
+			  content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<script src="../forge/all.js"></script>
 		<script src="js/jquery-1.7.2.min.js"></script>
 		<script>
 			$(document).bind('touchstart', function () {
-                forge.internal.call('gallerypicker.getImages', {}, function(results) {
+				forge.internal.call('gallerypicker.getImages', {}, function(results) {
 					for (var file in results) {
-                        //forge.file.URL(file, function (url) {
-                        forge.internal.call('gallerypicker.URL', { file: results[file] }, function (url) {
-                            var img = $("<img />").attr({ "src": url, "width": "25%", "height": "25%" });
-                            img.appendTo("#selection");
-                        });
+						//forge.file.URL(file, function (url) {
+						forge.internal.call('gallerypicker.URL', { file: results[file] }, function (url) {
+							var img = $("<img />").attr({ "src": url, "width": "25%", "height": "25%" });
+							img.appendTo("#selection");
+						});
 					}
 				}, 
 				function(e) { 

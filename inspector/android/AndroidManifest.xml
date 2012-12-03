@@ -6,13 +6,15 @@
       android:installLocation="auto" xmlns:tools="http://schemas.android.com/tools">
     
     <uses-permission android:name="android.permission.INTERNET" />
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        
     <uses-sdk android:targetSdkVersion="15" android:minSdkVersion="5"></uses-sdk>
     
     <application android:name="io.trigger.forge.android.modules.gallerypicker.Application"
         		 android:label="ForgeInspector"  
         		 android:hardwareAccelerated="true">
+        		 
         <activity android:name="io.trigger.forge.android.core.LoadActivity"
                   android:label="ForgeInspector"
                   android:theme="@android:style/Theme.NoTitleBar"
@@ -26,10 +28,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.chute.android.multiimagepicker.app.MultiImagePickerActivity"
-            	  android:theme="@android:style/Theme.Light.NoTitleBar"
-        		  android:screenOrientation="portrait">            
+        
+        <activity 
+            android:name="com.chute.android.multiimagepicker.app.MultiImagePickerActivity"
+        	android:theme="@android:style/Theme.Light.NoTitleBar"
+        	android:screenOrientation="portrait" >
         </activity>
-        <provider android:name="io.trigger.forge.android.core.ForgeContentProvider" android:authorities="io.trigger.forge.android.inspector" android:exported="true" tools:ignore="ExportedContentProvider" />
+        
+        <provider android:name="io.trigger.forge.android.core.ForgeContentProvider" 
+            	  android:authorities="io.trigger.forge.android.inspector" 
+            	  android:exported="true" 
+            	  tools:ignore="ExportedContentProvider" />
+        
     </application>
 </manifest>
