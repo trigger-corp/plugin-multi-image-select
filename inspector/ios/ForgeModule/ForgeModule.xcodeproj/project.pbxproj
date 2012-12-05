@@ -30,16 +30,16 @@
 /* Begin PBXFileReference section */
 		71805F9F166F3A2F0094B0FA /* gallerypicker_API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gallerypicker_API.h; sourceTree = "<group>"; };
 		71805FA0166F3A2F0094B0FA /* gallerypicker_API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gallerypicker_API.m; sourceTree = "<group>"; };
-		7180872E166F410500079BE2 /* ELCImagePickerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ELCImagePickerFramework.framework; path = "../../ios-libs/ELCImagePickerFramework.framework"; sourceTree = "<group>"; };
-		71808743166F649200079BE2 /* ELCImagePickerFramework */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ELCImagePickerFramework; path = "../../ios-libs/ELCImagePickerFramework.framework/ELCImagePickerFramework"; sourceTree = "<group>"; };
-		71808759166F651B00079BE2 /* ELCAlbumPickerController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = ELCAlbumPickerController.nib; path = "../../ios-libs/ELCImagePickerFramework.framework/Versions/A/Resources/ELCAlbumPickerController.nib"; sourceTree = "<group>"; };
-		7180875A166F651B00079BE2 /* ELCAssetPicker.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = ELCAssetPicker.nib; path = "../../ios-libs/ELCImagePickerFramework.framework/Versions/A/Resources/ELCAssetPicker.nib"; sourceTree = "<group>"; };
-		7180875B166F651B00079BE2 /* ELCAssetTablePicker.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = ELCAssetTablePicker.nib; path = "../../ios-libs/ELCImagePickerFramework.framework/Versions/A/Resources/ELCAssetTablePicker.nib"; sourceTree = "<group>"; };
-		7180875C166F651B00079BE2 /* ELCImagePickerController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = ELCImagePickerController.nib; path = "../../ios-libs/ELCImagePickerFramework.framework/Versions/A/Resources/ELCImagePickerController.nib"; sourceTree = "<group>"; };
+		7180872E166F410500079BE2 /* ELCImagePickerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ELCImagePickerFramework.framework; path = "../../ios-external/ELCImagePickerFramework.framework"; sourceTree = "<group>"; };
+		71808743166F649200079BE2 /* ELCImagePickerFramework */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ELCImagePickerFramework; path = "../../ios-external/ELCImagePickerFramework.framework/ELCImagePickerFramework"; sourceTree = "<group>"; };
+		71808759166F651B00079BE2 /* ELCAlbumPickerController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = ELCAlbumPickerController.nib; path = "../../ios-external/ELCImagePickerFramework.framework/Versions/A/Resources/ELCAlbumPickerController.nib"; sourceTree = "<group>"; };
+		7180875A166F651B00079BE2 /* ELCAssetPicker.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = ELCAssetPicker.nib; path = "../../ios-external/ELCImagePickerFramework.framework/Versions/A/Resources/ELCAssetPicker.nib"; sourceTree = "<group>"; };
+		7180875B166F651B00079BE2 /* ELCAssetTablePicker.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = ELCAssetTablePicker.nib; path = "../../ios-external/ELCImagePickerFramework.framework/Versions/A/Resources/ELCAssetTablePicker.nib"; sourceTree = "<group>"; };
+		7180875C166F651B00079BE2 /* ELCImagePickerController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = ELCImagePickerController.nib; path = "../../ios-external/ELCImagePickerFramework.framework/Versions/A/Resources/ELCImagePickerController.nib"; sourceTree = "<group>"; };
 		7180875F166F651B00079BE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		71808760166F651B00079BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Info.plist; path = "../../ios-libs/ELCImagePickerFramework.framework/Versions/A/Resources/Info.plist"; sourceTree = "<group>"; };
-		71808761166F651B00079BE2 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Overlay.png; path = "../../ios-libs/ELCImagePickerFramework.framework/Versions/A/Resources/Overlay.png"; sourceTree = "<group>"; };
-		71808762166F651B00079BE2 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Overlay@2x.png"; path = "../../ios-libs/ELCImagePickerFramework.framework/Versions/A/Resources/Overlay@2x.png"; sourceTree = "<group>"; };
+		71808760166F651B00079BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Info.plist; path = "../../ios-external/ELCImagePickerFramework.framework/Versions/A/Resources/Info.plist"; sourceTree = "<group>"; };
+		71808761166F651B00079BE2 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Overlay.png; path = "../../ios-external/ELCImagePickerFramework.framework/Versions/A/Resources/Overlay.png"; sourceTree = "<group>"; };
+		71808762166F651B00079BE2 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Overlay@2x.png"; path = "../../ios-external/ELCImagePickerFramework.framework/Versions/A/Resources/Overlay@2x.png"; sourceTree = "<group>"; };
 		B31B6D4E15C13D5200854074 /* libForgeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libForgeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31B6D5115C13D5200854074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B31B6D6D15C1467100854074 /* plugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,7 +116,7 @@
 				7180875E166F651B00079BE2 /* InfoPlist.strings */,
 			);
 			name = en.lproj;
-			path = "../../ios-libs/ELCImagePickerFramework.framework/Versions/A/Resources/en.lproj";
+			path = "../../ios-external/ELCImagePickerFramework.framework/Versions/A/Resources/en.lproj";
 			sourceTree = "<group>";
 		};
 		B31B6D4315C13D5200854074 = {
@@ -322,14 +322,14 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/..\"",
-					"\"$(SRCROOT)/../../ios-libs\"",
+					"\"$(SRCROOT)/../../ios-external\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ForgeModule-Prefix.pch";
 				HEADER_SEARCH_PATHS = "./**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../ios-libs/ELCImagePickerFramework.framework\"",
+					"\"$(SRCROOT)/../../ios-external/ELCImagePickerFramework.framework\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,14 +348,14 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/..\"",
-					"\"$(SRCROOT)/../../ios-libs\"",
+					"\"$(SRCROOT)/../../ios-external\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ForgeModule-Prefix.pch";
 				HEADER_SEARCH_PATHS = "./**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../ios-libs/ELCImagePickerFramework.framework\"",
+					"\"$(SRCROOT)/../../ios-external/ELCImagePickerFramework.framework\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,7 +373,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../ios-libs\"",
+					"\"$(SRCROOT)/../../ios-external\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -384,7 +384,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../ELCImagePickerFramework.framework/Versions/A\"",
-					"\"$(SRCROOT)/../../ios-libs/ELCImagePickerFramework.framework\"",
+					"\"$(SRCROOT)/../../ios-external/ELCImagePickerFramework.framework\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
@@ -403,7 +403,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../ios-libs\"",
+					"\"$(SRCROOT)/../../ios-external\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -414,7 +414,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../ELCImagePickerFramework.framework/Versions/A\"",
-					"\"$(SRCROOT)/../../ios-libs/ELCImagePickerFramework.framework\"",
+					"\"$(SRCROOT)/../../ios-external/ELCImagePickerFramework.framework\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
