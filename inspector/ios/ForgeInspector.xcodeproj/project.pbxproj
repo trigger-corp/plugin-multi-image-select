@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		"99f7ca12-dea1-4bd3-9a9c-4d0c60870ac0build" /* plugin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = "99f7ca12-dea1-4bd3-9a9c-4d0c60870ac0file" /* plugin.bundle */; };
+		"62d58b8d-5ecd-46d2-b75d-036a053d635bbuild" /* plugin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = "62d58b8d-5ecd-46d2-b75d-036a053d635bfile" /* plugin.bundle */; };
 		B307826415C2A393006798D7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307826315C2A393006798D7 /* AssetsLibrary.framework */; };
 		B307826C15C2A44F006798D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307826B15C2A44F006798D7 /* SystemConfiguration.framework */; };
 		B307826E15C2A47B006798D7 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = B307826D15C2A47B006798D7 /* assets */; };
@@ -67,7 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"99f7ca12-dea1-4bd3-9a9c-4d0c60870ac0file" /* plugin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = plugin.bundle; sourceTree = "<group>"; };
+		"62d58b8d-5ecd-46d2-b75d-036a053d635bfile" /* plugin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = plugin.bundle; sourceTree = "<group>"; };
 		B307826315C2A393006798D7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		B307826B15C2A44F006798D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B307826D15C2A47B006798D7 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 				B3FC517B15C14B2A003574D9 /* UIKit.framework */,
 				B3FC517D15C14B2A003574D9 /* Foundation.framework */,
 				B3FC517F15C14B2A003574D9 /* CoreGraphics.framework */,
-				"99f7ca12-dea1-4bd3-9a9c-4d0c60870ac0file" /* plugin.bundle */,
+				"62d58b8d-5ecd-46d2-b75d-036a053d635bfile" /* plugin.bundle */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 				B3FC519515C14B3C003574D9 /* ForgeCore.bundle in Resources */,
 				B307826E15C2A47B006798D7 /* assets in Resources */,
 				B307827215C2A634006798D7 /* app_config.json in Resources */,
-				"99f7ca12-dea1-4bd3-9a9c-4d0c60870ac0build" /* plugin.bundle in Resources */,
+				"62d58b8d-5ecd-46d2-b75d-036a053d635bbuild" /* plugin.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +367,6 @@
 				GCC_PREFIX_HEADER = "ForgeInspector/ForgeInspector-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ForgeInspector/ForgeInspector-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -385,7 +384,6 @@
 				GCC_PREFIX_HEADER = "ForgeInspector/ForgeInspector-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ForgeInspector/ForgeInspector-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

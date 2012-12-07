@@ -1,6 +1,7 @@
 {
   "modules": [
     "inspector", 
+    "alert", 
     "gallerypicker"
   ]
 }
