@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="1dp" android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:layout_gravity="center"
+	android:background="@color/black">
+	<ImageView android:id="@+id/imageViewThumb"
+		android:scaleType="centerCrop" android:layout_centerInParent="true"
+		android:layout_height="110dip" android:layout_width="110dip">
+	</ImageView>
+	<ImageView android:layout_alignBaseline="@+id/imageViewThumb"
+		android:layout_alignRight="@+id/imageViewThumb"
+		android:layout_alignBottom="@+id/imageViewThumb" android:id="@+id/imageTick"
+		android:layout_height="20dp" android:layout_width="20dp"
+		android:background="@drawable/photo_selector">
+	</ImageView>
+</RelativeLayout>
