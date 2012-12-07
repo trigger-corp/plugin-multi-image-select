@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="modules">
-        <item>io.trigger.forge.android.modules.inspector</item>
-        <item>io.trigger.forge.android.modules.gallerypicker</item>
-    </string-array>
-    <string name="disable_ics_acceleration">no</string>
-</resources>
