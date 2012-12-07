@@ -1,0 +1,20 @@
+[
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "android.permission.WRITE_EXTERNAL_STORAGE"
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_activity": {
+                "activity_name": "com.chute.android.multiimagepicker.app.MultiImagePickerActivity",
+                "attributes": {
+                    "android:theme": "@android:style/Theme.Light.NoTitleBar",
+                    "android:screenOrientation": "portrait"
+                }
+            }
+        }
+    }
+]
