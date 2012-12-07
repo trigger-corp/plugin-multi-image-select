@@ -1,0 +1,34 @@
+{
+	"author": "iamavagrant", 
+	"config_version": "2", 
+	"description": "An empty app created by default", 
+	"modules": {
+		"contact": true, 
+		"file": true, 
+		"is": true, 
+		"jquery": {
+			"version": "1.4.3"
+		}, 
+		"logging": {
+			"level": "DEBUG"
+		}, 
+		"media": true, 
+		"prefs": true, 
+		"reload": true, 
+		"request": {
+			"permissions": [
+				"http://*/*", 
+				"https://*/*"
+			]
+		}, 
+		"tools": true
+	}, 
+	"name": "imagepickertest", 
+	"platform_version": "feature_plugins_v1.1", 
+	"plugins": {
+		"gallerypicker": {
+			"hash": "4dfe96af60be870884616cc8218a70e70832970a"
+		}
+	}, 
+	"version": "0.2"
+}
