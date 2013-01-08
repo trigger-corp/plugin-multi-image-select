@@ -24,10 +24,10 @@
 		"tools": true
 	}, 
 	"name": "imagepickertest", 
-	"platform_version": "feature_plugins_v1.1", 
+	"platform_version": "v1.4.24", 
 	"plugins": {
-		"gallerypicker": {
-			"hash": "4dfe96af60be870884616cc8218a70e70832970a"
+		"multi_image_select": {
+			"hash": "4c7bb65e6e6758e6cca9a249bf86be57afb927c9"
 		}
 	}, 
 	"version": "0.2"
