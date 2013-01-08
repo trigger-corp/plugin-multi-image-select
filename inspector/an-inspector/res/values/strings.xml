@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="modules">
+        <item>io.trigger.forge.android.modules.multi_image_select</item><item>io.trigger.forge.android.modules.inspector</item>
+        <item>io.trigger.forge.android.modules.alert</item>
+    </string-array>
+</resources>

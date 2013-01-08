@@ -1,0 +1,7 @@
+{
+  "modules": [
+    "inspector", 
+    "alert", 
+    "multi_image_select"
+  ]
+}

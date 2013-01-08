@@ -1,0 +1,126 @@
+TForgeModuleResources
+v5
+r1
+cCheck dependencies
+cCompileXIB /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAlbumPickerController.xib
+cCompileXIB /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCImagePickerController.xib
+cCompileXIB /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetPicker.xib
+cCompileXIB /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetTablePicker.xib
+cTiffUtil Overlay.tiff
+cTouch /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAlbumPickerController.xib
+c0000000050EBFA2400000000000042DD
+t1357642276
+s17117
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetPicker.xib
+c0000000050EBFA240000000000004BD8
+t1357642276
+s19416
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetTablePicker.xib
+c0000000050EBFA240000000000004A5C
+t1357642276
+s19036
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCImagePickerController.xib
+c0000000050EBFA24000000000000343C
+t1357642276
+s13372
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/Overlay.png
+c0000000050EBFA240000000000001365
+t1357642276
+s4965
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/Overlay@2x.png
+c0000000050EBFA240000000000002229
+t1357642276
+s8745
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle
+t2
+s0
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/ELCAlbumPickerController.nib
+t2
+s0
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/ELCAssetPicker.nib
+t2
+s0
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/ELCAssetTablePicker.nib
+t2
+s0
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/ELCImagePickerController.nib
+t2
+s0
+
+N/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/Overlay.tiff
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2e738a18409cb641^44df8d18409cb641^---0#1#0#--18"Check dependencies36"1DB24DE6-0204-45B8-A2B0-175CB5F5DF5F-
+
+CCompileXIB /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAlbumPickerController.xib
+s379338776.557883
+e379338777.672791
+r1
+xCompileXIB
+x/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAlbumPickerController.xib
+o2013-01-08 11:52:57.344 Interface Builder Cocoa Touch Tool[50442:f07] CFPreferences: user home directory at file://localhost/Users/james/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Compiling /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAlbumPickerController.xibac558f18409cb641^4c53ac19409cb641^-238"2013-01-08 11:52:57.344 Interface Builder Cocoa Touch Tool[50442:f07] CFPreferences: user home directory at file://localhost/Users/james/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAlbumPickerController.xib0000000000000000^1782"CompileXIB ELCImagePickerFramework/Resources/ELCAlbumPickerController.xib    cd /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/ELCAlbumPickerController.nib /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAlbumPickerController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"48EC9159-A314-4011-9248-B35EAE15ECF4-
+
+CCompileXIB /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetPicker.xib
+s379338776.557890
+e379338777.672799
+r1
+xCompileXIB
+x/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetPicker.xib
+o2013-01-08 11:52:57.325 Interface Builder Cocoa Touch Tool[50444:f07] CFPreferences: user home directory at file://localhost/Users/james/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compiling /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetPicker.xib2e538f18409cb641^cd58ac19409cb641^-238"2013-01-08 11:52:57.325 Interface Builder Cocoa Touch Tool[50444:f07] CFPreferences: user home directory at file://localhost/Users/james/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetPicker.xib0000000000000000^1752"CompileXIB ELCImagePickerFramework/Resources/ELCAssetPicker.xib    cd /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/ELCAssetPicker.nib /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetPicker.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"CC2258A8-82B8-4374-BF5A-CFCB3F97C741-
+
+CCompileXIB /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetTablePicker.xib
+s379338776.557898
+e379338777.672789
+r1
+xCompileXIB
+x/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetTablePicker.xib
+o2013-01-08 11:52:57.326 Interface Builder Cocoa Touch Tool[50443:f07] CFPreferences: user home directory at file://localhost/Users/james/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Compiling /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetTablePicker.xibca528f18409cb641^a25eac19409cb641^-238"2013-01-08 11:52:57.326 Interface Builder Cocoa Touch Tool[50443:f07] CFPreferences: user home directory at file://localhost/Users/james/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetTablePicker.xib0000000000000000^1767"CompileXIB ELCImagePickerFramework/Resources/ELCAssetTablePicker.xib    cd /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/ELCAssetTablePicker.nib /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCAssetTablePicker.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"A6150855-ECD4-4286-BA1A-16A01AD59ACA-
+
+CCompileXIB /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCImagePickerController.xib
+s379338776.557894
+e379338777.672790
+r1
+xCompileXIB
+x/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCImagePickerController.xib
+o2013-01-08 11:52:57.346 Interface Builder Cocoa Touch Tool[50445:f07] CFPreferences: user home directory at file://localhost/Users/james/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Compiling /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCImagePickerController.xibc5538f18409cb641^e562ac19409cb641^-238"2013-01-08 11:52:57.346 Interface Builder Cocoa Touch Tool[50445:f07] CFPreferences: user home directory at file://localhost/Users/james/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCImagePickerController.xib0000000000000000^1782"CompileXIB ELCImagePickerFramework/Resources/ELCImagePickerController.xib    cd /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/ELCImagePickerController.nib /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/ELCImagePickerController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"74DFC74E-6624-48B5-A745-A18E946A5D0F-
+
+CTiffUtil Overlay.tiff
+s379338776.557904
+e379338776.591325
+r1
+xTiffUtil
+xOverlay.tiff
+oWarning: Sizes of concatenated images do not follow Aqua guidelines for resolution independent multi-image TIFFs.
+o         Please provide two images, one with exactly twice the pixel width as the other.
+o Image 1 in file /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/Overlay@2x.png: 150x150 points (150x150 pixels, 72x72 dpi)
+o Image 1 in file /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/Overlay.png: 72x72 points (72x72 pixels, 72x72 dpi)
+o2 images written to /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/Overlay.tiff.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"TiffUtil Overlay.tiff86378f18409cb641^12699718409cb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/Overlay.tiff00000020eb011042^1497"TiffUtil Overlay.tiff    cd /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/tiffutil -cathidpicheck "/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/Overlay@2x.png" /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/ELCImagePickerFramework/Resources/Overlay.png -out /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle/Overlay.tiff36"E11940B8-CFC6-4592-8F01-2407724C5B91-
+
+CTouch /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle
+s379338777.681162
+e379338777.688384
+r1
+xTouch
+x/Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Touch /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundlec9acae19409cb641^a83ab019409cb641^---0#0#0#--1216"Touch build/Release-iphoneos/multi_image_select.bundle    cd /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/james/forge-workspace/plugins/multi_image_select/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/multi_image_select.bundle36"09A11510-39AB-4C75-8BF0-671F967EC264-
+
