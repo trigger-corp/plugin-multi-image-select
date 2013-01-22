@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B3E58384162714AD00BD59DD /* libForgeModule.a */,
-				B3E58386162714AD00BD59DD /* plugin.bundle */,
+				B3E58386162714AD00BD59DD /* -fno-objc-arc.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 			remoteRef = B3E58383162714AD00BD59DD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B3E58386162714AD00BD59DD /* plugin.bundle */ = {
+		B3E58386162714AD00BD59DD /* -fno-objc-arc.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			name = "-fno-objc-arc.bundle";
