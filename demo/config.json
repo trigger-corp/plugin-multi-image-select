@@ -6,9 +6,6 @@
 		"contact": true, 
 		"file": true, 
 		"is": true, 
-		"jquery": {
-			"version": "1.4.3"
-		}, 
 		"logging": {
 			"level": "DEBUG"
 		}, 
@@ -24,7 +21,7 @@
 		"tools": true
 	}, 
 	"name": "imagepickertest", 
-	"platform_version": "v1.4.24", 
+	"platform_version": "v1.4", 
 	"plugins": {
 		"multi_image_select": {
 			"hash": "4c7bb65e6e6758e6cca9a249bf86be57afb927c9"
