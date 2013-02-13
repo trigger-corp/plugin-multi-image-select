@@ -1,7 +1,7 @@
 {
     "description": "Select several images at once in your Trigger.io app",
     "name": "multi_image_select", 
-    "platform_version": "v1.4", 
-    "uuid": "d4533cee598811e2b1a5b8f6b112a23d", 
+    "platform_version": "v1.4.29", 
+    "uuid": "", 
     "version": "0.7"
 }
