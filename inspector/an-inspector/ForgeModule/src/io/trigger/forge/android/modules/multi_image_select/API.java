@@ -115,7 +115,6 @@ public class API {
 					curLayout.addView(rl);
 				}
 				curLayout.setPadding(0, 0, 0, 10);
-				cursor.close();
 				
 				LinearLayout buttons = new LinearLayout(ForgeApp.getActivity());
 				RelativeLayout.LayoutParams buttonsLayout = new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, 100);
